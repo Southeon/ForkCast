@@ -237,7 +237,7 @@ document.getElementById("toggleMealsButton").addEventListener("click", () => {
       heading.textContent = heading.textContent.replace("▼", "▶");
     });
 
-    button.textContent = "Show All Meals";
+    button.textContent = "Show Meals";
   } else {
     // Show all
 
@@ -249,7 +249,7 @@ document.getElementById("toggleMealsButton").addEventListener("click", () => {
       heading.textContent = heading.textContent.replace("▶", "▼");
     });
 
-    button.textContent = "Hide All Meals";
+    button.textContent = "Hide Meals";
   }
 });
 
@@ -274,13 +274,13 @@ document
         list.style.display = "none";
       });
 
-      button.textContent = "Show All Ingredients";
+      button.textContent = "Ingredients";
     } else {
       ingredientLists.forEach((list) => {
         list.style.display = "block";
       });
 
-      button.textContent = "Hide All Ingredients";
+      button.textContent = "Hide Ingredients";
     }
   });
 

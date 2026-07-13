@@ -68,6 +68,10 @@ h1 {
     color: var(--text-header);
 }
 
+h2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
 /* ==================================================
    MAIN PAGE LAYOUT
 
