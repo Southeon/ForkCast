@@ -210,8 +210,8 @@ h1 {
 
 .meal-card.selected .add-meal-button {
 
-    background: var(--accents);
-    border-color: var(--accents);
+    background: var(--background);
+    border-color: var(--background);
     color: var(--text-primary);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     transform: rotate(180deg);
