@@ -1,0 +1,787 @@
+[
+    {
+        "caloriesPer100g": 165.0,
+        "ingredientID": 1,
+        "ingredientName": "Chicken Breast"
+    },
+    {
+        "caloriesPer100g": 360.0,
+        "ingredientID": 2,
+        "ingredientName": "Rice"
+    },
+    {
+        "caloriesPer100g": 884.0,
+        "ingredientID": 3,
+        "ingredientName": "Olive Oil"
+    },
+    {
+        "caloriesPer100g": 22.0,
+        "ingredientID": 4,
+        "ingredientName": "Mushrooms"
+    },
+    {
+        "caloriesPer100g": 137.0,
+        "ingredientID": 5,
+        "ingredientName": "5% Beef Mince"
+    },
+    {
+        "caloriesPer100g": 360.0,
+        "ingredientID": 6,
+        "ingredientName": "Spaghetti"
+    },
+    {
+        "caloriesPer100g": 362.0,
+        "ingredientID": 7,
+        "ingredientName": "Weetabix"
+    },
+    {
+        "caloriesPer100g": 47.0,
+        "ingredientID": 8,
+        "ingredientName": "Semi Skimmed Milk"
+    },
+    {
+        "caloriesPer100g": 78.0,
+        "ingredientID": 9,
+        "ingredientName": "Baked Beans"
+    },
+    {
+        "caloriesPer100g": 265.0,
+        "ingredientID": 10,
+        "ingredientName": "White Bread"
+    },
+    {
+        "caloriesPer100g": 717.0,
+        "ingredientID": 11,
+        "ingredientName": "Butter"
+    },
+    {
+        "caloriesPer100g": 416.0,
+        "ingredientID": 12,
+        "ingredientName": "Cheddar Cheese"
+    },
+    {
+        "caloriesPer100g": 353.0,
+        "ingredientID": 13,
+        "ingredientName": "Blue Cheese"
+    },
+    {
+        "caloriesPer100g": 215.0,
+        "ingredientID": 14,
+        "ingredientName": "Back Bacon"
+    },
+    {
+        "caloriesPer100g": 275.0,
+        "ingredientID": 15,
+        "ingredientName": "White Bread Roll"
+    },
+    {
+        "caloriesPer100g": 364.0,
+        "ingredientID": 16,
+        "ingredientName": "Plain Flour"
+    },
+    {
+        "caloriesPer100g": 143.0,
+        "ingredientID": 17,
+        "ingredientName": "Egg"
+    },
+    {
+        "caloriesPer100g": 53.0,
+        "ingredientID": 18,
+        "ingredientName": "Baking Powder"
+    },
+    {
+        "caloriesPer100g": 400.0,
+        "ingredientID": 19,
+        "ingredientName": "Sugar"
+    },
+    {
+        "caloriesPer100g": 884.0,
+        "ingredientID": 20,
+        "ingredientName": "Vegetable Oil"
+    },
+    {
+        "caloriesPer100g": 184.0,
+        "ingredientID": 21,
+        "ingredientName": "Smoked Salmon"
+    },
+    {
+        "caloriesPer100g": 342.0,
+        "ingredientID": 22,
+        "ingredientName": "Full Fat Cream Cheese"
+    },
+    {
+        "caloriesPer100g": 275.0,
+        "ingredientID": 23,
+        "ingredientName": "Bagel"
+    },
+    {
+        "caloriesPer100g": 375.0,
+        "ingredientID": 24,
+        "ingredientName": "Porridge Oats"
+    },
+    {
+        "caloriesPer100g": 220.0,
+        "ingredientID": 25,
+        "ingredientName": "Crumpet"
+    },
+    {
+        "caloriesPer100g": 57.0,
+        "ingredientID": 26,
+        "ingredientName": "Greek Yoghurt (0%)"
+    },
+    {
+        "caloriesPer100g": 304.0,
+        "ingredientID": 27,
+        "ingredientName": "Honey"
+    },
+    {
+        "caloriesPer100g": 89.0,
+        "ingredientID": 28,
+        "ingredientName": "Banana"
+    },
+    {
+        "caloriesPer100g": 50.0,
+        "ingredientID": 29,
+        "ingredientName": "Frozen Mixed Berries"
+    },
+    {
+        "caloriesPer100g": 247.0,
+        "ingredientID": 30,
+        "ingredientName": "Cinnamon"
+    },
+    {
+        "caloriesPer100g": 34.0,
+        "ingredientID": 31,
+        "ingredientName": "Cantaloupe Melon"
+    },
+    {
+        "caloriesPer100g": 241.0,
+        "ingredientID": 32,
+        "ingredientName": "Serrano Ham"
+    },
+    {
+        "caloriesPer100g": 270.0,
+        "ingredientID": 33,
+        "ingredientName": "Baguette"
+    },
+    {
+        "caloriesPer100g": 720.0,
+        "ingredientID": 34,
+        "ingredientName": "Mayonnaise"
+    },
+    {
+        "caloriesPer100g": 15.0,
+        "ingredientID": 35,
+        "ingredientName": "Lettuce"
+    },
+    {
+        "caloriesPer100g": 17.0,
+        "ingredientID": 36,
+        "ingredientName": "Romaine Lettuce"
+    },
+    {
+        "caloriesPer100g": 431.0,
+        "ingredientID": 37,
+        "ingredientName": "Parmesan"
+    },
+    {
+        "caloriesPer100g": 480.0,
+        "ingredientID": 38,
+        "ingredientName": "Caesar Dressing"
+    },
+    {
+        "caloriesPer100g": 407.0,
+        "ingredientID": 39,
+        "ingredientName": "Croutons"
+    },
+    {
+        "caloriesPer100g": 215.0,
+        "ingredientID": 40,
+        "ingredientName": "Chicken Gyozas"
+    },
+    {
+        "caloriesPer100g": 310.0,
+        "ingredientID": 41,
+        "ingredientName": "Tortilla Wrap"
+    },
+    {
+        "caloriesPer100g": 365.0,
+        "ingredientID": 42,
+        "ingredientName": "Breadcrumbs"
+    },
+    {
+        "caloriesPer100g": 31.0,
+        "ingredientID": 43,
+        "ingredientName": "Red Pepper"
+    },
+    {
+        "caloriesPer100g": 180.0,
+        "ingredientID": 44,
+        "ingredientName": "Guacamole"
+    },
+    {
+        "caloriesPer100g": 18.0,
+        "ingredientID": 45,
+        "ingredientName": "Tomato"
+    },
+    {
+        "caloriesPer100g": 23.0,
+        "ingredientID": 46,
+        "ingredientName": "Fresh Basil"
+    },
+    {
+        "caloriesPer100g": 149.0,
+        "ingredientID": 47,
+        "ingredientName": "Garlic"
+    },
+    {
+        "caloriesPer100g": 17.0,
+        "ingredientID": 48,
+        "ingredientName": "Courgette"
+    },
+    {
+        "caloriesPer100g": 290.0,
+        "ingredientID": 49,
+        "ingredientName": "Ciabatta"
+    },
+    {
+        "caloriesPer100g": 217.0,
+        "ingredientID": 50,
+        "ingredientName": "Sirloin Steak"
+    },
+    {
+        "caloriesPer100g": 40.0,
+        "ingredientID": 51,
+        "ingredientName": "Onion"
+    },
+    {
+        "caloriesPer100g": 25.0,
+        "ingredientID": 52,
+        "ingredientName": "Rocket"
+    },
+    {
+        "caloriesPer100g": 145.0,
+        "ingredientID": 53,
+        "ingredientName": "Pot Noodle"
+    },
+    {
+        "caloriesPer100g": 49.0,
+        "ingredientID": 54,
+        "ingredientName": "Kale"
+    },
+    {
+        "caloriesPer100g": 18.0,
+        "ingredientID": 55,
+        "ingredientName": "Mixed Salad Leaves"
+    },
+    {
+        "caloriesPer100g": 15.0,
+        "ingredientID": 56,
+        "ingredientName": "Cucumber"
+    },
+    {
+        "caloriesPer100g": 19.0,
+        "ingredientID": 57,
+        "ingredientName": "White Wine Vinegar"
+    },
+    {
+        "caloriesPer100g": 150.0,
+        "ingredientID": 58,
+        "ingredientName": "Dijon Mustard"
+    },
+    {
+        "caloriesPer100g": 31.0,
+        "ingredientID": 59,
+        "ingredientName": "Green Beans"
+    },
+    {
+        "caloriesPer100g": 407.0,
+        "ingredientID": 60,
+        "ingredientName": "Salami"
+    },
+    {
+        "caloriesPer100g": 280.0,
+        "ingredientID": 61,
+        "ingredientName": "Mozzarella"
+    },
+    {
+        "caloriesPer100g": 145.0,
+        "ingredientID": 62,
+        "ingredientName": "Green Olives"
+    },
+    {
+        "caloriesPer100g": 258.0,
+        "ingredientID": 63,
+        "ingredientName": "Sun Dried Tomatoes"
+    },
+    {
+        "caloriesPer100g": 41.0,
+        "ingredientID": 64,
+        "ingredientName": "Carrot"
+    },
+    {
+        "caloriesPer100g": 270.0,
+        "ingredientID": 65,
+        "ingredientName": "Pizza Flatbread"
+    },
+    {
+        "caloriesPer100g": 150.0,
+        "ingredientID": 66,
+        "ingredientName": "BBQ Sauce"
+    },
+    {
+        "caloriesPer100g": 450.0,
+        "ingredientID": 67,
+        "ingredientName": "Pepperoni"
+    },
+    {
+        "caloriesPer100g": 250.0,
+        "ingredientID": 68,
+        "ingredientName": "Beef Mince"
+    },
+    {
+        "caloriesPer100g": 45.0,
+        "ingredientID": 69,
+        "ingredientName": "Beef Stock Gravy"
+    },
+    {
+        "caloriesPer100g": 77.0,
+        "ingredientID": 70,
+        "ingredientName": "Potato"
+    },
+    {
+        "caloriesPer100g": 350.0,
+        "ingredientID": 71,
+        "ingredientName": "Dumpling Mix"
+    },
+    {
+        "caloriesPer100g": 250.0,
+        "ingredientID": 72,
+        "ingredientName": "Beef Burger Patty"
+    },
+    {
+        "caloriesPer100g": 320.0,
+        "ingredientID": 73,
+        "ingredientName": "Brioche Bun"
+    },
+    {
+        "caloriesPer100g": 120.0,
+        "ingredientID": 74,
+        "ingredientName": "Southern Corn Cob"
+    },
+    {
+        "caloriesPer100g": 250.0,
+        "ingredientID": 75,
+        "ingredientName": "Yorkshire Pudding"
+    },
+    {
+        "caloriesPer100g": 35.0,
+        "ingredientID": 76,
+        "ingredientName": "Broccoli"
+    },
+    {
+        "caloriesPer100g": 40.0,
+        "ingredientID": 77,
+        "ingredientName": "Chicken Gravy"
+    },
+    {
+        "caloriesPer100g": 550.0,
+        "ingredientID": 78,
+        "ingredientName": "Puff Pastry"
+    },
+    {
+        "caloriesPer100g": 81.0,
+        "ingredientID": 79,
+        "ingredientName": "Garden Peas"
+    },
+    {
+        "caloriesPer100g": 350.0,
+        "ingredientID": 80,
+        "ingredientName": "Sushi Rice"
+    },
+    {
+        "caloriesPer100g": 208.0,
+        "ingredientID": 81,
+        "ingredientName": "Salmon Fillet"
+    },
+    {
+        "caloriesPer100g": 220.0,
+        "ingredientID": 82,
+        "ingredientName": "Unagi Sauce"
+    },
+    {
+        "caloriesPer100g": 573.0,
+        "ingredientID": 83,
+        "ingredientName": "Sesame Seeds"
+    },
+    {
+        "caloriesPer100g": 120.0,
+        "ingredientID": 84,
+        "ingredientName": "Katsu Curry Sauce"
+    },
+    {
+        "caloriesPer100g": 325.0,
+        "ingredientID": 85,
+        "ingredientName": "Curry Powder"
+    },
+    {
+        "caloriesPer100g": 190.0,
+        "ingredientID": 86,
+        "ingredientName": "Coconut Milk"
+    },
+    {
+        "caloriesPer100g": 120.0,
+        "ingredientID": 87,
+        "ingredientName": "Tikka Masala Sauce"
+    },
+    {
+        "caloriesPer100g": 80.0,
+        "ingredientID": 88,
+        "ingredientName": "Ginger"
+    },
+    {
+        "caloriesPer100g": 60.0,
+        "ingredientID": 89,
+        "ingredientName": "Soy Sauce"
+    },
+    {
+        "caloriesPer100g": 250.0,
+        "ingredientID": 90,
+        "ingredientName": "Jerk Seasoning"
+    },
+    {
+        "caloriesPer100g": 180.0,
+        "ingredientID": 91,
+        "ingredientName": "Satay Sauce"
+    },
+    {
+        "caloriesPer100g": 203.0,
+        "ingredientID": 92,
+        "ingredientName": "Chicken Wings"
+    },
+    {
+        "caloriesPer100g": 66.0,
+        "ingredientID": 93,
+        "ingredientName": "Mustard"
+    },
+    {
+        "caloriesPer100g": 470.0,
+        "ingredientID": 94,
+        "ingredientName": "Double Cream"
+    },
+    {
+        "caloriesPer100g": 350.0,
+        "ingredientID": 95,
+        "ingredientName": "Pasta"
+    },
+    {
+        "caloriesPer100g": 300.0,
+        "ingredientID": 96,
+        "ingredientName": "Bacon Lardons"
+    },
+    {
+        "caloriesPer100g": 110.0,
+        "ingredientID": 97,
+        "ingredientName": "White Fish Fillet"
+    },
+    {
+        "caloriesPer100g": 500.0,
+        "ingredientID": 98,
+        "ingredientName": "Pork Belly"
+    },
+    {
+        "caloriesPer100g": 250.0,
+        "ingredientID": 99,
+        "ingredientName": "Pork Chop"
+    },
+    {
+        "caloriesPer100g": 280.0,
+        "ingredientID": 100,
+        "ingredientName": "Lamb Shoulder"
+    },
+    {
+        "caloriesPer100g": 180.0,
+        "ingredientID": 101,
+        "ingredientName": "Curry Paste"
+    },
+    {
+        "caloriesPer100g": 82.0,
+        "ingredientID": 102,
+        "ingredientName": "Tomato Puree"
+    },
+    {
+        "caloriesPer100g": 325.0,
+        "ingredientID": 103,
+        "ingredientName": "Garam Masala"
+    },
+    {
+        "caloriesPer100g": 312.0,
+        "ingredientID": 104,
+        "ingredientName": "Turmeric"
+    },
+    {
+        "caloriesPer100g": 340.0,
+        "ingredientID": 105,
+        "ingredientName": "Cream"
+    },
+    {
+        "caloriesPer100g": 209.0,
+        "ingredientID": 106,
+        "ingredientName": "Chicken Thigh"
+    },
+    {
+        "caloriesPer100g": 82.0,
+        "ingredientID": 107,
+        "ingredientName": "White Wine"
+    },
+    {
+        "caloriesPer100g": 10.0,
+        "ingredientID": 108,
+        "ingredientName": "Chicken Stock"
+    },
+    {
+        "caloriesPer100g": 22.0,
+        "ingredientID": 109,
+        "ingredientName": "Lemon Juice"
+    },
+    {
+        "caloriesPer100g": 282.0,
+        "ingredientID": 110,
+        "ingredientName": "Paprika"
+    },
+    {
+        "caloriesPer100g": 375.0,
+        "ingredientID": 111,
+        "ingredientName": "Cumin"
+    },
+    {
+        "caloriesPer100g": 23.0,
+        "ingredientID": 112,
+        "ingredientName": "Coriander"
+    },
+    {
+        "caloriesPer100g": 280.0,
+        "ingredientID": 113,
+        "ingredientName": "Flatbread"
+    },
+    {
+        "caloriesPer100g": 280.0,
+        "ingredientID": 114,
+        "ingredientName": "Lamb Mince"
+    },
+    {
+        "caloriesPer100g": 275.0,
+        "ingredientID": 115,
+        "ingredientName": "Pitta Bread"
+    },
+    {
+        "caloriesPer100g": 120.0,
+        "ingredientID": 116,
+        "ingredientName": "Tzatziki"
+    },
+    {
+        "caloriesPer100g": 97.0,
+        "ingredientID": 117,
+        "ingredientName": "Greek Yoghurt"
+    },
+    {
+        "caloriesPer100g": 588.0,
+        "ingredientID": 118,
+        "ingredientName": "Peanut Butter"
+    },
+    {
+        "caloriesPer100g": 250.0,
+        "ingredientID": 119,
+        "ingredientName": "Honey Mustard Sauce"
+    },
+    {
+        "caloriesPer100g": 35.0,
+        "ingredientID": 121,
+        "ingredientName": "Passata"
+    },
+    {
+        "caloriesPer100g": 25.0,
+        "ingredientID": 122,
+        "ingredientName": "Chopped Tomatoes"
+    },
+    {
+        "caloriesPer100g": 342.0,
+        "ingredientID": 123,
+        "ingredientName": "Cream Cheese"
+    },
+    {
+        "caloriesPer100g": 90.0,
+        "ingredientID": 124,
+        "ingredientName": "Haddock"
+    },
+    {
+        "caloriesPer100g": 90.0,
+        "ingredientID": 125,
+        "ingredientName": "Cod"
+    },
+    {
+        "caloriesPer100g": 300.0,
+        "ingredientID": 126,
+        "ingredientName": "Sausage"
+    },
+    {
+        "caloriesPer100g": 300.0,
+        "ingredientID": 127,
+        "ingredientName": "Pork Sausage"
+    },
+    {
+        "caloriesPer100g": 200.0,
+        "ingredientID": 128,
+        "ingredientName": "Duck Breast"
+    },
+    {
+        "caloriesPer100g": 10.0,
+        "ingredientID": 129,
+        "ingredientName": "Vegetable Stock"
+    },
+    {
+        "caloriesPer100g": 116.0,
+        "ingredientID": 130,
+        "ingredientName": "Lentils"
+    },
+    {
+        "caloriesPer100g": 720.0,
+        "ingredientID": 131,
+        "ingredientName": "Garlic Butter"
+    },
+    {
+        "caloriesPer100g": 280.0,
+        "ingredientID": 132,
+        "ingredientName": "Cajun Seasoning"
+    },
+    {
+        "caloriesPer100g": 320.0,
+        "ingredientID": 133,
+        "ingredientName": "Ribs"
+    },
+    {
+        "caloriesPer100g": 190.0,
+        "ingredientID": 134,
+        "ingredientName": "Beef Cheek"
+    },
+    {
+        "caloriesPer100g": 43.0,
+        "ingredientID": 135,
+        "ingredientName": "Ale"
+    },
+    {
+        "caloriesPer100g": 260.0,
+        "ingredientID": 136,
+        "ingredientName": "Popcorn Chicken"
+    },
+    {
+        "caloriesPer100g": 381.0,
+        "ingredientID": 137,
+        "ingredientName": "Cornflour"
+    },
+    {
+        "caloriesPer100g": 250.0,
+        "ingredientID": 138,
+        "ingredientName": "Jollof Spice"
+    },
+    {
+        "caloriesPer100g": 360.0,
+        "ingredientID": 139,
+        "ingredientName": "Long Grain Rice"
+    },
+    {
+        "caloriesPer100g": 35.0,
+        "ingredientID": 140,
+        "ingredientName": "Tomato Passata"
+    },
+    {
+        "caloriesPer100g": 40.0,
+        "ingredientID": 141,
+        "ingredientName": "Scotch Bonnet Pepper"
+    },
+    {
+        "caloriesPer100g": 550.0,
+        "ingredientID": 142,
+        "ingredientName": "Dark Chocolate"
+    },
+    {
+        "caloriesPer100g": 228.0,
+        "ingredientID": 143,
+        "ingredientName": "Cocoa Powder"
+    },
+    {
+        "caloriesPer100g": 380.0,
+        "ingredientID": 144,
+        "ingredientName": "Brown Sugar"
+    },
+    {
+        "caloriesPer100g": 320.0,
+        "ingredientID": 145,
+        "ingredientName": "Golden Syrup"
+    },
+    {
+        "caloriesPer100g": 480.0,
+        "ingredientID": 146,
+        "ingredientName": "Digestive Biscuits"
+    },
+    {
+        "caloriesPer100g": 282.0,
+        "ingredientID": 147,
+        "ingredientName": "Dates"
+    },
+    {
+        "caloriesPer100g": 320.0,
+        "ingredientID": 148,
+        "ingredientName": "Caramel Sauce"
+    },
+    {
+        "caloriesPer100g": 52.0,
+        "ingredientID": 149,
+        "ingredientName": "Apples"
+    },
+    {
+        "caloriesPer100g": 480.0,
+        "ingredientID": 150,
+        "ingredientName": "Pepperami"
+    },
+    {
+        "caloriesPer100g": 95.0,
+        "ingredientID": 151,
+        "ingredientName": "Crab Sticks"
+    },
+    {
+        "caloriesPer100g": 305.0,
+        "ingredientID": 152,
+        "ingredientName": "Smoked Mackerel"
+    },
+    {
+        "caloriesPer100g": 50.0,
+        "ingredientID": 153,
+        "ingredientName": "Mixed Fruit"
+    },
+    {
+        "caloriesPer100g": 120.0,
+        "ingredientID": 154,
+        "ingredientName": "Curry Sauce"
+    },
+    {
+        "caloriesPer100g": 110.0,
+        "ingredientID": 155,
+        "ingredientName": "White Sauce"
+    },
+    {
+        "caloriesPer100g": 333.0,
+        "ingredientID": 156,
+        "ingredientName": "Nori Sheets"
+    },
+    {
+        "caloriesPer100g": 700.0,
+        "ingredientID": 157,
+        "ingredientName": "Kewpie Mayo"
+    },
+    {
+        "caloriesPer100g": 550.0,
+        "ingredientID": 158,
+        "ingredientName": "Crispy Onions"
+    }
+]

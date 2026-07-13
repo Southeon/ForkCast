@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>ForkCast</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="page-layout">
+
+        <div id="mealContainer">
+            <!-- Meals appear here -->
+        </div>
+
+        <aside id="shoppingSection">
+
+<div class="shopping-header">
+
+    <h1>ForkCast</h1>
+
+    <button id="copyButton" title="Copy Shopping List">
+
+        <svg
+            class="copy-icon"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round">
+
+            <rect x="9" y="9" width="13" height="13" rx="2"></rect>
+
+            <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+
+        </svg>
+
+    </button>
+
+</div>
+
+<pre id="shoppingList">
+No meals selected
+</pre>
+
+
+            <input 
+                id="mealSearch"
+                type="text"
+                placeholder="Search meals or ingredients..."
+                >
+<div class="shopping-actions">
+            <button id="exportButton">
+                Export TXT
+            </button>
+
+            <button id="clearButton">
+                Clear List
+            </button>
+
+            <button id="toggleMealsButton">
+                Hide Meals
+            </button>
+
+            <button id="toggleIngredientsButton">
+                Show Ingredients
+            </button></div>
+
+            <div id="mealSearchContainer">
+
+            </div>
+
+        </aside>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

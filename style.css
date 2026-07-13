@@ -1,0 +1,464 @@
+/* ==================================================
+   MIDNIGHT LAVENDER EGIRL THEME
+
+   60% - Background
+   30% - cards
+   10% - Accents
+
+   Style:
+   Soft cyber / egirl / digital planner aesthetic
+================================================== */
+
+/* ==================================================
+   COLOUR VARIABLES
+================================================== */
+
+:root {
+  /* Main background */
+
+  --background: #1c1e25;
+
+  /* Accent colours */
+
+  --cards: rgb(32, 34, 41);
+  --accents: #D4404A;
+  --gradients: linear-gradient(235deg, #70191F, #430f13);
+
+    /* Sidebar colours */
+  /*--sidebar: #430F13;
+  --textbox: #70191F;*/
+  --sidebar: #70191F;
+  --textbox: #430F13;
+  --text-textbox: #e2e2e2;
+
+  --sidebar-button: linear-gradient(170deg,  #9D242C, #B42932);
+  --sidebar-button-hover: #FF686B;
+  --sidebar-button-selected: #ffff;
+
+  /* Text colours */
+
+  --text-primary: #e2e2e2;
+  --text-secondary: #636369;
+
+  --text-primary-selected: #1E1E20;
+  --text-secondary-selected: #1E1E20;
+
+  --text-header: #F4F0E2;
+
+  /* Effects */
+
+  --shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+  --radius: 10px;
+}
+
+/* ==================================================
+   GLOBAL PAGE
+================================================== */
+
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background: var(--background);
+  color: var(--text-primary);
+  margin: 30px;
+}
+
+h1 {
+    font-family: "monotype corsiva", Arial, Helvetica, sans-serif;
+    font-size: 42px;
+    color: var(--text-header);
+}
+
+/* ==================================================
+   MAIN PAGE LAYOUT
+
+   Left:
+   Meal cards
+
+   Right:
+   Sticky shopping list
+================================================== */
+
+.page-layout {
+  display: grid;
+  grid-template-columns: 1fr 350px;
+  gap: 25px;
+  align-items: start;
+}
+
+/* ==================================================
+   MEAL CONTAINER
+================================================== */
+
+#mealContainer {
+  width: 100%;
+}
+
+/* ==================================================
+   MEAL TYPE SECTIONS
+================================================== */
+
+.meal-section {
+  margin-bottom: 45px;
+}
+
+.meal-section-heading {
+  cursor: pointer;
+  user-select: none;
+  background: var(--gradients);
+  color: var(--text-primary);
+  padding: 14px 20px;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  transition: 0.25s ease;
+  margin-top: 0px;
+}
+
+.meal-section-heading:hover {
+  background: var(--gradients);
+  transform: translateY(-2px);
+}
+
+/* ==================================================
+   MEAL GRID
+================================================== */
+
+.meal-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 18px;
+  margin-top: 18px;
+  align-items: stretch;
+}
+
+/* ==================================================
+   CARD HEADER
+================================================== */
+
+.meal-header {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+
+}
+
+.meal-header h3 {
+    margin: 0;
+    flex: 1;
+    min-width: 0;
+
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* ==================================================
+   MEAL CARDS
+================================================== */
+
+.meal-card {
+  background: var(--cards);
+  border-radius: var(--radius);
+  padding: 14px;
+  box-shadow: var(--shadow);
+  display: flex;
+  flex-direction: column;
+  transition: 0.25s ease;
+}
+
+.meal-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.35);
+}
+
+.meal-card h3 {
+  color: var(--text-primary);
+  margin: 0 0 8px;
+  font-size: 1.15rem;
+  line-height: 1.25;
+}
+
+.meal-card p {
+  color: var(--text-secondary);
+  margin: 0 0 12px;
+  font-size: 0.9rem;
+}
+
+.meal-card ul {
+  flex-grow: 1;
+  margin: 0;
+  margin-bottom: 14px;
+  padding-left: 18px;
+  font-size: 0.9rem;
+  line-height: 1.35;
+}
+
+.meal-card li {
+  margin-bottom: 4px;
+}
+
+/* ==================================================
+   SELECTED MEAL STATE
+================================================== */
+
+.meal-card.selected {
+  background: #D4404A;
+  box-shadow: 0 0 25px rgba(184, 181, 209, 0.35);
+}
+
+.meal-card.selected .add-meal-button {
+
+    background: var(--accents);
+    border-color: var(--accents);
+    color: var(--text-primary);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transform: rotate(180deg);
+
+}
+
+.meal-card.selected h3 {
+  color: var(--text-primary-selected);
+}
+
+.meal-card.selected p {
+  color: var(--sidebar);
+}
+
+/* ==================================================
+   BUTTONS
+================================================== */
+
+button {
+  background: var(--gradients);
+  color: #e5ece7;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.25s ease;
+}
+
+button:hover {
+  background: var(--gradients);
+  color: #ac554d;
+  transform: translateY(-2px);
+}
+
+button:active {
+  transform: scale(0.97);
+}
+
+/* Meal card button */
+
+.add-meal-button {
+
+    width: 30px;
+    height: 30px;
+    flex-shrink: 0;
+    border-radius: 50%;
+    border: 2px solid var(--accents);
+    background: transparent;
+    color: var(--text-primary);
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.add-meal-button:hover {
+
+    background: var(--accents);
+    color: var(--text-primary);
+    transform: scale(1.1);
+
+}
+
+/* Sidebar buttons */
+
+#exportButton,
+#clearButton,
+#toggleMealsButton,
+#toggleIngredientsButton {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  background: var(--sidebar-button);
+  color: #fff;
+  transition: all ease 0.1s;
+  box-shadow: 0px 5px 0px 0px var(--sidebar-button-hover);
+}
+
+#exportButton.hover,
+#clearButton.hover,
+#toggleMealsButton.hover,
+#toggleIngredientsButton.hover {
+  background: var(--sidebar-button-hover);
+  color: var(--text-secondary-selected);
+  transform: translateY(-2px);
+}
+
+
+/* ==========================================
+   SHOPPING LIST HEADER
+========================================== */
+
+/* ==========================================
+   SHOPPING HEADER
+========================================== */
+
+.shopping-header {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+
+}
+
+#copyButton {
+
+    width: 45px;
+    height: 45px;
+    padding: 0;
+    border-radius: 20%;
+    border: 2px solid var(--background);
+    background: var(--background);
+    color: var(--text-header);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: .3s ease;
+}
+
+#copyButton:hover {
+
+    background: var(--sidebar-button-hover);
+    color: var(--background);
+    border: 2px solid var(--sidebar-button-hover);
+    transform: scale(1.1);
+}
+
+.copy-icon {
+
+    width: 16px;
+    height: 16px;
+}
+
+#copyButton.copied {
+    #copyButton.copied {
+    background: var(--background);
+    border-color: var(--background);
+    color: var(--text-primary);
+}
+}
+/* ==================================================
+   SHOPPING SIDEBAR
+================================================== */
+
+#shoppingSection {
+  background: var(--sidebar);
+  padding: 0px 22px 22px;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  position: sticky;
+  top: 20px;
+}
+
+/* Shopping list display */
+
+#shoppingList {
+  white-space: pre-wrap;
+  background: var(--textbox);
+  color: var(--text-textbox);
+  padding: 16px;
+  border-radius: 14px;
+  min-height: 150px;
+}
+
+/* ==========================================
+   SHOPPING ACTIONS
+========================================== */
+
+.shopping-actions {
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.shopping-actions button {
+
+    width: 100%;
+    padding: 10px;
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+/* ==================================================
+   COPY BUTTON SUCCESS
+================================================== */
+
+#copyButton.copied {
+  background: var(--textbox);
+border: 2px solid var(--textbox);
+}
+
+/* ==================================================
+   SEARCH
+================================================== */
+
+#mealSearchContainer {
+  margin-top: 15px;
+}
+
+#mealSearch {
+  width: 100%;
+  padding: 12px;
+  box-sizing: border-box;
+  border-radius: 14px;
+  background: var(--textbox);
+  color: var(--text-primary);
+  border: 2px solid var(--textbox);
+  font-size: 16px;
+}
+
+#mealSearch::placeholder {
+  color: #925459;
+}
+
+#mealSearch:focus {
+  outline: none;
+}
+
+/* ==================================================
+   SPECIAL BUTTONS
+================================================== */
+
+#toggleMealsButton,
+#clearButton {
+  width: 100%;
+}
+
+/* ==================================================
+   RESPONSIVE DESIGN
+================================================== */
+
+@media (max-width: 900px) {
+  .page-layout {
+    grid-template-columns: 1fr;
+  }
+
+  #shoppingSection {
+    position: relative;
+
+    top: auto;
+  }
+}
